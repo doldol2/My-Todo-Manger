@@ -129,7 +129,7 @@
 @keyframes slide-up {
   from {
     opacity: 0;
-    transform: translateY(500px);
+    transform: translateY(100px);
   }
   to {
     transform: none;
