@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Todo Manager</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/fa91ee9085.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="phone">
+      <div class="screen">
+        <div class="top-screen">
+          <div class="screen__container">
+            <div class="top-screen__left">
+              <div class="well-come__box">
+                <span class="well-come">Well come</span>
+                <span class="well-come__name"></span>
+              </div>
+              <div class="date-and-weather">
+                <span class="date"></span>
+                <span class="weather"></span>
+              </div>
+            </div>
+            <div class="top-screen__right">
+              <div class="todo-status">
+                <div class="status__pending status">
+                  <span class="pending__count count"></span>
+                  <span class="status__pending-title s-title">Pending</span>
+                </div>
+                <div class="status__finished status">
+                  <span class="finished__count count"></span>
+                  <span class="status__finished-title s-title">Finished</span>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="progress-per"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-screen">
+          <div class="main-display">
+            <div class="pending-box box">
+              <span class="box-title pending-title">TO DO</span>
+              <ul class="pending-list"></ul>
+            </div>
+            <div class="finished-box box">
+              <span class="box-title finished-title">FINISHED</span>
+              <ul class="finished-list"></ul>
+            </div>
+            <div class="add-todo-link">
+              <a href="addTodo.html"><i class="fas fa-plus"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/todo.js"></script>
+    <script src="src/ranImg.js"></script>
+    <script src="src/weather.js"></script>
+  </body>
+</html>

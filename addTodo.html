@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add List</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/fa91ee9085.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="add-todo">
+      <header>
+        <a href="todo.html" class="back-to-main">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+        <div class="add-todo__title">
+          <h4>Add new list</h4>
+        </div>
+        <div class="icon-container"><i class="fas fa-bars"></i></div>
+      </header>
+      <form class="add-list__form">
+        <input
+          type="text"
+          class="add-todo__name"
+          placeholder="Type a what to do"
+        />
+        <input type="text" class="add-todo__place" placeholder="Where to do" />
+        <input type="text" class="add-todo__time" placeholder="When to do" />
+        <button class="submit-add-todo">ADD YOUR LIST</button>
+      </form>
+    </div>
+    <script src="src/addTodo.js"></script>
+  </body>
+</html>
