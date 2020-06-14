@@ -26,6 +26,9 @@
   color: white;
 }
 
+.add-list__form {
+  animation: slide-up 0.5s ease-out;
+}
 .add-list__form input {
   color: white;
   background-color: rgba(250, 250, 250, 0);
